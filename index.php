@@ -15,3 +15,7 @@
  * Author: dxw
  * Version: 1.0.0
  */
+
+add_filter('nab_staging_urls', function () {
+	return [];
+});
